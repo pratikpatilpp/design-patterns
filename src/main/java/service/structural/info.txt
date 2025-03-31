@@ -1,0 +1,10 @@
+This Section contains code for some of the Structural Design Patterns.
+
+The known Structural Design Patterns are:
+- Facade
+- Adapter
+- Decorator
+- Proxy
+- Bridge
+- Composite
+- Flyweight

@@ -1,0 +1,8 @@
+This Section contains code for some of the Creational Design Patterns.
+
+The known Creational Design Patterns are:
+- Singleton
+- Factory
+- Abstract Factory
+- Builder
+- Prototype

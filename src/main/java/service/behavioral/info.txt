@@ -1,0 +1,17 @@
+This Section contains code for some of the Behavioral Design Patterns.
+
+The known Behavioral Design Patterns are:
+- Chain of Responsibility
+- Strategy
+- Template Method
+- Observer
+- Interpreter
+- Command
+- Iterator
+- Mediator
+- Memento
+- State
+- Visitor
+- Delegation
+- Circuit Breaker
+- Dependency Injection

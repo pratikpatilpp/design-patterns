@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version "${springBootVersion}"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+java{
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of("21"))
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //BOM
+    implementation(platform("org.springframework.boot:spring-boot-dependencies:${springBootVersion}"))
+
+    //SpringBoot dependencies
+    implementation("org.springframework.boot:spring-boot-starter-web")
+}
